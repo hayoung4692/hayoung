@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>참좋은여행</title>
+
+  <!--JS-->
+  <script src="js/jquery.3.6.0.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/verygoodtour.css">
+
+</head>
+<body>
+  <div id="container">
+    <!--header-->
+    <header>
+      <!--header_top-->
+      <div class="header_top">
+        <div class="inner">
+          <!--search-->
+          <div class="search">
+            <input type="search" placeholder="어디로 떠나고 싶으신가요?">
+            <input type="image" src="img/ico_search.png" alt="검색아이콘">
+          </div>
+          <!--login-->
+          <div class="login">
+            <a href="login-page/login.html" target="_blank">로그인</a>
+            <a href="#none">회원가입</a>
+            <a href="#none">고객센터</a>
+          </div>
+        </div>
+      </div>
+      <!--header_bom-->
+      <div class="inner header_bom">
+        <!--logo-->
+        <h1 class="logo">
+          <a href="#none">참좋은여행</a>
+        </h1>
+        <!--gnb-->
+        <ul class="gnb">
+          <li><a href="#none">해외여행</a>
+            <!--bar-->
+            <div class="bar">
+              <div class="inner sub_wrap">
+                <div class="sub_mu">
+                  <ul class="sub">
+                    <li><a href="sub-page/sub-page.html" target="_blank">유럽</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동유럽</a></li>
+                        <li><a href="#none">서유럽</a></li>
+                        <li><a href="#none">남유럽</a></li>
+                        <li><a href="#none">북유럽</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아시아</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동북아시아</a></li>
+                        <li><a href="#none">중앙아시아</a></li>
+                        <li><a href="#none">동남아시아</a></li>
+                        <li><a href="#none">서남아시아</a></li>
+                        <li><a href="#none">서북아시아</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아메리카</a>
+                      <ul class="sub2">
+                        <li><a href="#none">북아메리카</a></li>
+                        <li><a href="#none">남아메리카</a></li>
+                        <li><a href="#none">중앙아메리카</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아프리카</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동아프리카</a></li>
+                        <li><a href="#none">서아프리카</a></li>
+                        <li><a href="#none">중앙아프리카</a></li>
+                        <li><a href="#none">남아프리카</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">오세아니아</a>
+                      <ul class="sub2">
+                        <li><a href="#none">오스트레일리아</a></li>
+                        <li><a href="#none">뉴질랜드</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#none">국내여행</a></li>
+          <li><a href="#none">테마여행</a></li>
+          <li><a href="#none">숙박시설</a></li>
+          <li><a href="#none">항공권검색</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--main_banner-->
+    <div class="main_banner">
+      <div>
+        <a href="#none" class="s s1">
+          <div class="txt_wrap">
+            <h2 class="title1">미리 준비하는<br>
+              SOMEDAY 외화적금3</h2>
+            <p class="p1">참좋은여행 & 신한은행</p>
+          </div>
+          <div class="usa country"><img src="img/usa.svg" alt=""></div>
+          <div class="eu country"><img src="img/eu.svg" alt=""></div>
+          <div class="paris country"><img src="img/paris.svg" alt=""></div>
+          <div class="egypt country"><img src="img/egypt.svg" alt=""></div>
+          <div class="alab country"><img src="img/alab.svg" alt=""></div>
+          <div class="india country"><img src="img/india.svg" alt=""></div>
+          <div class="asia country"><img src="img/asia.svg" alt=""></div>
+          <div class="top country"><img src="img/top.svg" alt=""></div>
+        </a>
+      </div>
+    </div>
+    <!--main1-->
+    <section id="main1">
+      <div class="main1 inner">
+        <h2>여행지 추천</h2>
+        <ul class="menu">
+          <li><a href="#none">#유럽/중동</a></li>
+          <li><a href="#none">#동북아시아</a></li>
+          <li><a href="#none">#동남아시아</a></li>
+          <li><a href="#none">#오세아니아</a></li>
+          <li><a href="#none">#아메리카</a></li>
+          <li><a href="#none">#아프리카</a></li>
+          <li><a href="#none">#러시아</a></li>
+          <li><a href="#none">#국내여행</a></li>
+          <li><a href="#none">#제주도</a></li>
+        </ul>
+        <div class="img_container">
+          <div class="slider">
+            <div class="img1">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img2">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img3">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img4">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img5">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img6">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img7">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="img8">
+              <div class="txt_wrap2">
+                <strong class="title2">[우리만의 여행]</strong>
+                <p class="p2">푸켓에서의 5일간의 휴가<span class="no">1/3</span></p>
+                <div class="hide">
+                  <p>{신나는 여행}</p>
+                  <p>라르고의 의미를 일깨운 미서부 여행, 친절한 안내자</p>
+                  <p>단독 상품으로 나이아가라 폭포전망 특급호텔 숙박 및 일정/식사가 업그레이드 된 상품</p>
+                  <a href="#none">더많은 정보 보러가기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--main2-->
+    <section id="main2">
+      <div class="main2 inner">
+        <h2>나만의 여행 맞춤 추천</h2>
+        <ul class="icons">
+          <li><a href="#none"><img src="img/icon1.png" alt="가족 아이콘"><p>가족</p></a></li>
+          <li><a href="#none"><img src="img/icon2.png" alt="친구 아이콘"><p>친구</p></a></li>
+          <li><a href="#none"><img src="img/icon3.png" alt="커플 아이콘"><p>커플</p></a></li>
+          <li><a href="#none"><img src="img/icon4.png" alt="1인 아이콘"><p>1인</p></a></li>
+          <li><a href="#none"><img src="img/icon5.png" alt="단체 아이콘"><p>단체</p></a></li>
+        </ul>
+      </div>
+    </section>
+    <!--main3-->
+    <section id="main3">
+      <div class="main3 inner">
+        <h2>테마여행</h2>
+        <div class="boxes">
+          <div class="boxA">
+            <div class="box_txt">
+              <strong>괌/사이판 PIC 리조트 <i class="fas fa-chevron-right"></i></strong>
+              <p>화려함과 한적함 서로다른 새로움</p>
+              <span>2021.07.07 ~ 2021.08.31</span>
+            </div>
+          </div>
+          <div class="boxB">
+            <div class="boxB_top">
+              <div class="boxB_1">
+                <strong>괌/사이판 PIC 리조트 <i class="fas fa-chevron-right"></i></strong>
+                <p>화려함과 한적함<br>서로다른 새로움</p>
+                <span>2021.07.07 ~ 2021.08.31</span>
+              </div>
+              <div class="boxB_2"></div>
+            </div>
+            <div class="boxB_bom">
+              <div class="boxB_3"></div>
+              <div class="boxB_4">
+                <strong>괌/사이판 PIC 리조트 <i class="fas fa-chevron-right"></i></strong>
+                <p>화려함과 한적함<br>서로다른 새로움</p>
+                <span>2021.07.07 ~ 2021.08.31</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--main4-->
+    <section id="main4">
+      <div class="black"></div>
+      <div class="main4 inner main4_boxes">
+        <div class="main4-1">
+          <div class="main4_txt">
+            <h3>솔직한 여행 이야기</h3>
+            <strong>즐거웠던 하롱베이 여행을 마치고...</strong>
+            <p>
+              두번째 괌여행 하야트로 선택해서 3박4일 정말 잘 쉬다 왔어요.<br>
+              시내에 중심에 있어 렌트카없이도 걸어서 식당 마트 다녀올수있어서.... <span>더보기</span>
+            </p>
+          </div>
+          <div class="main4_img1"></div>
+        </div>
+        <div class="main4-2">
+          <div class="main4_txt">
+            <h3>트래블버블로 사이판 다녀왔어요</h3>
+            <strong>2019년을 연 사이판 여행</strong>
+            <p>
+              Pic리조트에서의 5일간은 분명 격리가 맞는데도 불구하고 격리가 아닌 천억짜리 호화로운 리조트를 통째로 빌린 느낌이였어요. 8명이 만평의 리조트를... <span>더보기</span>
+            </p>
+          </div>
+          <div class="main4_img2"></div>
+        </div>
+        <div class="main4-3">
+          <div class="main4_txt">
+            <h3>솔직한 여행 이야기</h3>
+            <strong>즐거웠던 하롱베이 여행을 마치고...</strong>
+            <p>
+              두번째 괌여행 하야트로 선택해서 3박4일 정말 잘 쉬다 왔어요.<br>
+              시내에 중심에 있어 렌트카없이도 걸어서 식당 마트 다녀올수있어서.... <span>더보기</span>
+            </p>
+          </div>
+          <div class="main4_img3"></div>
+        </div>
+        <div class="main4_arrow">
+          <a href="#none" class="main4_prev"></a>
+          <a href="#none" class="main4_next"></a>
+        </div>
+      </div>
+    </section>
+    <!--main5-->
+    <section id="main5">
+      <div class="main5 inner">
+        <h2>참좋은 여행 VLOG</h2>
+        <div class="vlog">
+          <div class="youtube">
+            <div class="youtube_list">
+              <div class="youtube_list1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O8dwQeTP8xY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="youtube_list2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_uF2fLkTLvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="youtube_list3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MAejk_O1AdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="youtube_list4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IxmTPcIYp1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="etc">
+            <a href="#none" class="etc1">
+              <strong>[우리만의 여행]<span>BEST</span></strong>
+              <p>일상에서 벗어나 환상적인 바캉스를 즐기세요!</p>
+              <span>2021.06.10~2021.07.28</span>
+              <span class="blue"></span>
+            </a>
+            <a href="#none" class="etc2">
+              <strong>[우리만의 여행]</strong>
+              <p>일상에서 벗어나 환상적인 바캉스를 즐기세요!</p>
+              <span>2021.06.10~2021.07.28</span>
+              <span class="blue"></span>
+            </a>
+            <a href="#none" class="etc3">
+              <strong>[우리만의 여행]</strong>
+              <p>일상에서 벗어나 환상적인 바캉스를 즐기세요!</p>
+              <span>2021.06.10~2021.07.28</span>
+              <span class="blue"></span>
+            </a>
+            <a href="#none" class="etc4">
+              <strong>[우리만의 여행]</strong>
+              <p>일상에서 벗어나 환상적인 바캉스를 즐기세요!</p>
+              <span>2021.06.10~2021.07.28</span>
+              <span class="blue"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--main6-->
+    <section id="main6">
+      <div class="main6 inner">
+        <h2>글로벌 정보</h2>
+        <div class="global">
+          <div class="global_infor">
+            <div class="global_infor1">
+              <div class="global_btn global_btn1 america">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor2">
+              <div class="global_btn global_btn2 america">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor3">
+              <div class="global_btn global_btn3 america">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor4">
+              <div class="global_btn global_btn4 europe">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor5">
+              <div class="global_btn global_btn5 europe">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor6">
+              <div class="global_btn global_btn6 asian">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor7">
+              <div class="global_btn global_btn7 asian">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor8">
+              <div class="global_btn global_btn8 asian">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor9">
+              <div class="global_btn global_btn9 asian">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+              <div class="global_txt">
+                <div class="g_weather">
+                  <p>날씨정보</p>
+                  <div class="weather_img">
+                    <h4>
+                      <i class="fas fa-map-marker-alt"></i>도쿄
+                      <span>2021년 9월 20일 오후 12:00</span>
+                    </h4>
+                    <div class="w_txt">
+                      <div class="w_img">
+                        <img src="img/cloud.svg" alt="">
+                      </div>
+                      <div class="w_degree">
+                        <strong>22℃</strong>
+                      </div>
+                      <div class="w_infor">
+                        <span>기온 : 22도</span>
+                        <span>강우 : 비</span>
+                        <span>미세먼지 : 좋음</span>
+                      </div>
+                    </div>
+                    <div class="w_day">
+                      <div class="day1">
+                        <span>오후 1시</span>
+                        <img src="img/cloud2.svg" alt="">
+                        <p>23℃ / 22℃</p>
+                      </div>
+                      <div class="day2">
+                        <span>오후 3시</span>
+                        <img src="img/cloud2.svg" alt="">
+                        <p>23℃ / 22℃</p>
+                      </div>
+                      <div class="day3">
+                        <span>오후 5시</span>
+                        <img src="img/cloud2.svg" alt="">
+                        <p>23℃ / 22℃</p>
+                      </div>
+                    </div>
+                    <div class="w_etc">
+                      <div class="w_etc1">
+                        <div class="w_good">
+                          <img src="img/good.svg" alt="">
+                        </div>
+                        <div class="w_mise">
+                          <span>미세먼지</span>
+                          <span>좋음</span>
+                        </div>
+                      </div>
+                      <div class="w_etc2">
+                        <div class="w_good">
+                          <img src="img/good.svg" alt="">
+                        </div>
+                        <div class="w_mise">
+                          <span>초미세먼지</span>
+                          <span>좋음</span>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="w_color">
+                      <span>곳곳 호우특보가 발효 중이니<br>침수 피해 없도록 주의하세요.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="g_event">
+                  <p>이벤트정보</p>
+                  <div class="event_img">
+                   <div class="event_img1">
+                     <div class="e_img e_img1">
+                      <img src="img/japan1.png" alt="">
+                     </div>
+                     <div class="e_txt">
+                       <p class="e_tit">텐진마츠리(天神祭)</p>
+                       <p>축제일정: 7월 24일~7월 25일</p>
+                       <p>장소: 오사카텐만구</p>
+                     </div>
+                   </div>
+                    <div class="event_img2">
+                      <div class="e_img e_img2">
+                      <img src="img/japan2.png" alt="">
+                      </div>
+                      <div class="e_txt">
+                        <p class="e_tit">칠석 축제(七夕まつり)</p>
+                        <p>축제일정: 8월 8일~8월 9일</p>
+                        <p>장소: 센다이시 중심부</p>
+                      </div>
+                    </div>
+                    <div class="event_img3">
+                      <div class="e_img e_img3">
+                      <img src="img/japan3.png" alt="">
+                      </div>
+                      <div class="e_txt">
+                        <p class="e_tit">요사코이 축제(よさこい祭り)</p>
+                        <p>축제일정: 8월 24일~8월 25일</p>
+                        <p>장소: 코치(高知)역 주변</p>
+                      </div>
+                    </div>
+                    <a href="#none" class="e_more">이벤트 확인하러 가기</a>
+                  </div>
+                </div>
+                <div class="g_notice">
+                  <p>주의사항</p>
+                  <div class="notice_wrap">
+                    <a href="#none" class="notice01">
+                      <div class="n_img">
+                        <img src="img/man.svg" alt="">
+                      </div>
+                      <p class="n_txt">기본인사 / 예의</p>
+                    </a>
+                    <a href="#none" class="notice02">
+                      <div class="n_img">
+                        <img src="img/taxi.svg" alt="">
+                      </div>
+                      <p class="n_txt">교통수단</p>
+                    </a>
+                    <a href="#none" class="notice03">
+                      <div class="n_img">
+                        <img src="img/card.svg" alt="">
+                      </div>
+                      <p class="n_txt">결제방법</p>
+                    </a>
+                    <a href="#none" class="notice04">
+                      <div class="n_img">
+                        <img src="img/etc.svg" alt="">
+                      </div>
+                      <p class="n_txt">기타정보</p>
+                    </a>
+                  </div>
+                  <a href="#none" class="n_more">주의사항 확인하러 가기</a>
+                </div>
+                <a href="#none" class="global_close"><i class="fas fa-times"></i></a>
+              </div>
+            </div>
+            <div class="global_infor10">
+              <div class="global_btn global_btn10 africa">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="global_infor11">
+              <div class="global_btn global_btn11 aust">
+                <a href="#none"><img src="img/point.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="global_etc">
+          <li><a href="#none" class="all_btn">전체보기</a></li>
+          <li><a href="#none" class="asia_btn">아시아</a></li>
+          <li><a href="#none" class="america_btn">아메리카</a></li>
+          <li><a href="#none" class="europe_btn">유럽</a></li>
+          <li><a href="#none" class="aust_btn">오세아니아</a></li>
+          <li><a href="#none" class="africa_btn">아프리카</a></li>
+        </ul>
+      </div>
+    </section>
+    <!--main7-->
+    <section id="main7">
+      <div class="main7 inner">
+        <h2>고객지원</h2>
+        <div class="customer">
+          <a href="#none" class="center">고객센터</a>
+          <a href="#none" class="request">여행문의</a>
+        </div>
+        <div class="main7_conts">
+          <div class="notice">
+            <div class="notice1">
+              <p>여행상담</p>
+              <ul>
+                <li><a href="#none">· 국내선 이용시 주의사항 안내드립니다.<span class="no">5/30</span></a></li>
+                <li><a href="#none">· 국내선 이용시 주의사항 안내드립니다.<span class="no">5/30</span></a></li>
+                <li><a href="#none">· 국내선 이용시 주의사항 안내드립니다.<span class="no">5/30</span></a></li>
+                <li><a href="#none">· 국내선 이용시 주의사항 안내드립니다.<span class="no">5/30</span></a></li>
+                <li><a href="#none">· 국내선 이용시 주의사항 안내드립니다.<span class="no">5/30</span></a></li>
+              </ul>
+            </div>
+            <div class="notice2">
+              <p>공지사항</p>
+              <ul>
+                <li><a href="#none">· 호텔 예약 문의<span class="no">5/30</span><span class="btn">답변완료</span></a></li>
+                <li><a href="#none">· 렌터카 비용<span class="no">5/30</span><span class="btn">답변완료</span></a></li>
+                <li><a href="#none">· 가이드 투어 신청<span class="no">5/30</span><span class="btn">답변완료</span></a></li>
+                <li><a href="#none">· 렌터카 비용<span class="no">5/30</span><span class="btn">답변완료</span></a></li>
+                <li><a href="#none">· 지도받을 수 있을까요?<span class="no">5/30</span><span class="btn">답변완료</span></a></li>
+              </ul>
+              <a href="#none" class="plus">더보기 <i class="fas fa-plus-circle"></i></a>
+            </div>
+            <div class="notice3">
+              <ul class="ask">
+                <li>
+                  <a href="#none">
+                    <i class="far fa-comments"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="far fa-comment-dots"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="far fa-check-circle"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="far fa-sticky-note"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="far fa-frown"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="far fa-map"></i>
+                    <p>여행상담</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="trip">
+            <div class="trip1">
+              <div class="trip_wrap">
+                <a href="#none" class="trip1-1">
+                  <div class="trip_txt trip_txt1">
+                    <strong>온라인 예약 서비스</strong>
+                    <p>지금 참좋은여행을<br>모바일로 만나보세요!</p>
+                  </div>
+                </a>
+                <a href="#none" class="trip1-2">
+                  <div class="trip_txt trip_txt2">
+                    <strong>온라인 예약 서비스</strong>
+                    <p>지금 참좋은여행을<br>모바일로 만나보세요!</p>
+                  </div>
+                </a>
+                <a href="#none" class="trip1-3">
+                  <div class="trip_txt trip_txt3">
+                    <strong>온라인 예약 서비스</strong>
+                    <p>지금 참좋은여행을<br>모바일로 만나보세요!</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="trip2">
+              <div class="trip2_top">
+                <a href="#none" class="write">글쓰기</a>
+                <input type="search" placeholder="Search" class="trip_s">
+              </div>
+              <div class="trip2_bom">
+                <table>
+                  <thead>
+                    <tr>
+                      <td>No</td>
+                      <td>제목</th>
+                      <td>글쓴이</td>
+                      <td>작성시간</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>5</td>
+                      <td class="table_tit">울릉도/독도 패키지 관련</td>
+                      <td>윤**</td>
+                      <td>2021-08-23</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td class="table_tit">분실시 대처</td>
+                      <td>박**</td>
+                      <td>2021-08-23</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td class="table_tit">여행지에서 도난사건 발생</td>
+                      <td>성**</td>
+                      <td>2021-08-23</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td class="table_tit">호텔 예약시 문의사항</td>
+                      <td>오**</td>
+                      <td>2021-08-23</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td class="table_tit">항공편 예약시 문제</td>
+                      <td>김**</td>
+                      <td>2021-08-23</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer id="footer">
+      <div class="footer inner">
+        <div class="ft_left">
+          <h2 class="ft_title">고객센터</h2>
+          <div class="call">
+            <img src="img/ico_comm.png" alt="고객센터">
+            <strong>1699-7773</strong>
+          </div>
+          <ul class="left_txt">
+            <li><span>운영시간</span><span>09:00~18:00</span></li>
+            <li><span>운영시간</span><span>09:00~18:00</span></li>
+            <li><span></span><span>(점심시간에는 상담업무가 제공되지 않습니다)</span></li>
+            <li><span>항공문의</span><span>064-744-7117(주말 및 공휴일 휴무)
+            </span></li>
+            <li><span>단체</span><span>064-742-4004</span></li>
+          </ul>
+        </div>
+        <div class="ft_right">
+          <ul class="basic">
+            <li>회사소개</li>
+            <li>사업제휴</li>
+            <li>개인정보취급방침</li>
+            <li>이용약관</li>
+            <li>수집거부</li>
+          </ul>
+          <div class="right_txt">
+            <p>
+              사업자번호: 540-81-01170 [사업자정보확인] | 통신판매업신고증 제 2018-서울강남-04699호 | 관광사업등록 제 2018-77호 | 대표자: 한창래 | 개인정보관리책임자: 조철희
+            </p>
+            <p>
+              주소: (본점)서울특별시 강남구 논현로 75길 8, 지하1층(역삼동, 비드 빌딩),(제주지점)제주특별자치도 제주시 청사로 26, 3층(도남동) ㈜제주닷컴 | 대표전화: 1544-3100 | 팩스: 064-749-4488
+            </p>
+            <address>Copyright (c) JEJU.COM. All rights reserved.</address>
+          </div>
+          <ul class="ft_icons">
+            <li>
+              <img src="img/iso_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+            <li>
+              <img src="img/kpita_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+            <li>
+              <img src="img/sbc_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--top_icon-->
+    <div class="top_icon">
+      <a href="#none"><img src="img/top_icon.svg" alt=""></a>
+    </div>
+  </div>
+</body>
+</html>

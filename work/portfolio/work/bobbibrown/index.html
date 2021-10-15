@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bobbi Brown</title>
+
+  <!-- link -->
+
+  <script src="js/lib/jquery.3.6.0.js"></script>
+  <script src="js/lib/jquery-ui.min.js"></script>
+  <script src="js/lib/jquery.transform2d.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- <script src="js/slide.js"></script> -->
+
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+
+</head>
+<body>
+  <div id="container">
+    <!-- header -->
+    <header id="header">
+      <div class="header_top">
+        <h1 class="logo">
+          <a href="#none">
+            <img src="img/logo.jpg" alt="바비브라운 홈으로">
+          </a>
+        </h1>
+        <ul class="lang">
+          <li><a href="#none"><img src="img/usa.png" alt=""></a></li>
+          <li><a href="#none"><img src="img/japan.png" alt=""></a></li>
+          <li><a href="#none"><img src="img/china.png" alt=""></a></li>
+        </ul>
+        <ul class="icons">
+          <li><a href="#none"><i class="fas fa-user"></i></a></li>
+          <li><a href="#none"><i class="fas fa-shopping-bag"></i></a></li>
+          <li><a href="#none"><i class="fas fa-map-marker-alt"></i></a></li>
+        </ul>
+        <div class="find">
+          <a href="#none"><img src="img/search.svg" alt="검색아이콘"></a>
+        </div>
+        <div class="ham">
+          <a href="#none"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
+      <div class="header_bom">
+        <div class="inner_long">
+          <ul class="gnb">
+            <li><a href="#none">메이크업</a>
+              <!-- black_bar -->
+              <div class="black_bar">
+                <div class="inner">
+                  <div class="left_sub">
+                    <strong>메이크업</strong>
+                    <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                  </div>
+                  <div class="main_sub">
+                    <ul class="sub">
+                      <li><a href="#none">페이스</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">파운데이션</a></li>
+                          <li><a href="#none">쿠션</a></li>
+                          <li><a href="#none">프라이머</a></li>
+                          <li><a href="#none">컨실러</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">립</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">립스틱</a></li>
+                          <li><a href="#none">립케어</a></li>
+                          <li><a href="#none">립글로스</a></li>
+                          <li><a href="#none">립라이너</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">아이</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">아이섀도우</a></li>
+                          <li><a href="#none">아이라이너</a></li>
+                          <li><a href="#none">마스카라</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">치크</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">브러쉬</a></li>
+                          <li><a href="#none">하이라이터</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#none">ETC</a>
+                        <ul class="sub_sub">
+                          <li><a href="#none">브러쉬&툴</a></li>
+                          <li><a href="#none">팔레트&세트</a></li>
+                          <li><a href="#none">BOBBI BROWN</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#none">베스트셀러</a>
+              <div class="black_bar">
+                <div class="inner">
+                  <div class="left_sub">
+                    <strong>베스트셀러</strong>
+                    <a href="#none">전체보기 <i class="fas fa-chevron-right"></i></a>
+                  </div>
+                  <div class="main_sub">
+                    <ul class="sub2">
+                      <li>
+                        <a href="#none">이달의 베스트</a>
+                        <img src="img/cos1.png" alt="">
+                        <p>바비브라운 섀도우 NO.3</p>
+                      </li>
+                      <li>
+                        <a href="#none">CUSTOMER PICK</a>
+                        <img src="img/cos2.png" alt="">
+                        <p>바비브라운 섀도우 NO.3</p>
+                      </li>
+                      <li>
+                        <a href="#none">바비브라운 추천</a>
+                        <img src="img/cos3.png" alt="">
+                        <p>바비브라운 섀도우 NO.3</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#none">페이스</a></li>
+            <li><a href="#none">스킨케어</a></li>
+            <li><a href="#none">NEW</a></li>
+            <li><a href="#none">ABOUT</a></li>
+            <li><a href="#none" style="color: #CAA39C;">LAST CHANCE</a></li>
+            <li class="search">
+              <input type="search">
+              <img src="img/search.svg" alt="검색아이콘">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="banner">
+      <div class="sliderWrap">
+        <div class="slides">
+          <a href="#none"><img src="img/banner_1.png" alt="배너1"></a>
+          <a href="#none"><img src="img/banner_2.png" alt="배너2"></a>
+          <a href="#none"><img src="img/banner_3.png" alt="배너3"></a>
+        </div>
+        <div class="banner_arrow">
+          <a href="#none" class="banner_btnPrev"><img src="img/arrow_w.png" alt="이전버튼"></a>
+          <a href="#none" class="banner_btnNext"><img src="img/arrow2_w.png" alt="다음버튼"></a>
+        </div>
+        <div class="indicators">
+          <a href="#none"></a>
+          <a href="#none"></a>
+          <a href="#none"></a>
+        </div>
+      </div>
+    </div>
+    <section id="new">
+      <div class="new inner">
+        <h2>NEW PRODUCTS</h2>
+        <div class="new_box">
+          <div class="new_top">
+            <div class="new_top_l">
+              <video controls autoplay muted loop>
+                <source src="img/found.mp4">
+              </video>
+            </div>
+            <div class="new_top_r">
+              <div class="white_txt">
+                <strong>CRUSHED SHINE LIP</strong>
+                <p>CRUSHED SHINE LIP</p>
+                <span>새로워진 컬러와 지속력으로<br>$ 40,000~</span>
+                <a href="#none">SHOP NOW</a>
+              </div>
+              <img src="img/lip1.png" alt="립스틱1">
+            </div>
+          </div>
+          <div class="new_bom">
+            <div class="new_bom_l">
+              <div class="white_txt">
+                <strong>CRUSHED SHINE LIP</strong>
+                <p>CRUSHED SHINE LIP</p>
+                <span>새로워진 컬러와 지속력으로<br>$ 40,000~</span>
+                <a href="#none">SHOP NOW</a>
+              </div>
+              <img src="img/lip2.png" alt="립스틱1">
+            </div>
+            <div class="new_bom_r">
+              <video controls autoplay muted loop>
+                <source src="img/skin.mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="recom">
+      <div class="black"></div>
+      <div class="recom inner_long">
+        <h2>RECOMMENDATION</h2>
+        <div class="inner_long">
+          <ul class="recom_list slider">
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span> <span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <div class="recom_txt">
+                  <strong>KISS ME NO.4</strong>
+                  <span class="happy">MAKE YOU HAPPY</span><span>$ 40.05</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="best">
+      <div class="best inner">
+        <h2>BEST SELLER</h2>
+        <div class="best_box">
+          <div class="best1">
+            <div class="best_img">
+              <img src="img/best1.png" alt="베스트상품1">
+              <div class="black">
+                <div class="best_txt2">
+                  <strong>SHINE,<br>ENDLESS</strong>
+                  <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                    나에게 꼭 맞는 색상을 찾아보세요</p>
+                  <a href="#none">GO PAGE</a>
+                </div>
+              </div>
+            </div>
+            <div class="best_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                나에게 꼭 맞는 색상을 찾아보세요</p>
+              <a href="#none">GO PAGE</a>
+              <!-- <img src="img/arrow2-1.png" alt=""> -->
+            </div>
+          </div>
+          <div class="best2">
+            <div class="best_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                나에게 꼭 맞는 색상을 찾아보세요</p>
+              <a href="#none">GO PAGE</a>
+              <!-- <img src="img/arrow2-2.png" alt=""> -->
+            </div>
+            <div class="best_img">
+              <img src="img/best2.png" alt="베스트상품2">
+              <div class="black">
+                <div class="best_txt2">
+                  <strong>SHINE,<br>ENDLESS</strong>
+                  <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                    나에게 꼭 맞는 색상을 찾아보세요</p>
+                  <a href="#none">GO PAGE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="best3">
+            <div class="best_img">
+              <img src="img/best3.png" alt="베스트상품3">
+              <div class="black">
+                <div class="best_txt2">
+                  <strong>SHINE,<br>ENDLESS</strong>
+                  <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                    나에게 꼭 맞는 색상을 찾아보세요</p>
+                  <a href="#none">GO PAGE</a>
+                </div>
+              </div>
+            </div>
+            <div class="best_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>내 피부의 명도와 본연의 언더톤을 고려하여<br> 
+                나에게 꼭 맞는 색상을 찾아보세요</p>
+              <a href="#none">GO PAGE</a>
+              <!-- <img src="img/arrow2-3.png" alt=""> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="makeup">
+      <div class="makeup inner">
+        <h2>HOW TO MAKEUP</h2>
+        <div class="youtube">
+          <div class="youtube_mov">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0Oywq2RWmP0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="youtube_txt">
+            <strong>MAKEUP TUTORIAL</strong>
+            <p>내 피부의 명도와 본연의 언더톤을 고려하여<br>
+              나에게 꼭 맞는 색상을 찾아보세요</p>
+            <span>2021.08.04 ~ 2021.08.09</span>
+            <a href="#none">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="pound">
+          <h3>나에게 딱맞는 파운데이션 찾기</h3>
+          <ul class="tone">
+            <li><a href="#none">모두보기</a></li>
+            <li><a href="#none">밝은톤</a></li>
+            <li><a href="#none">중간톤</a></li>
+            <li><a href="#none">어두운톤</a></li>
+          </ul>
+          <ul class="tone_img">
+            <li>
+              <a href="#none">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </li>
+          </ul>
+          <div class="tone_txt">
+            <a href="#none" class="tone_btn">파운데이션 찾기</a>
+            <p class="tone_p">내 피부의 명도와 본연의 언더톤을 고려하여 나에게 꼭 맞는 색상을 찾아보세요</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="special">
+      <div class="special inner_long">
+        <h2>SPECIAL PICK</h2>
+        <div class="special_wrap slider">
+          <div class="special1 mid">
+            <div class="special_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>SHINE, GONE on SHINE, GONE on</p>
+              <a href="#none">SHOW MORE</a>
+            </div>
+          </div>
+          <div class="special2">
+            <div class="special_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>SHINE, GONE on SHINE, GONE on</p>
+              <a href="#none">SHOW MORE</a>
+            </div>
+          </div>
+          <div class="special3">
+            <div class="special_txt">
+              <strong>SHINE,<br>ENDLESS</strong>
+              <p>SHINE, GONE on SHINE, GONE on</p>
+              <a href="#none">SHOW MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="insta">
+      <div class="insta inner">
+        <h2># B.B IN INSTAGRAM</h2>
+        <div class="insta_wrap">
+          <div class="insta1">
+            <div class="insta_txt">
+              <p>@lovecosmetics</p>
+              <a href="#none">more</a>
+            </div>
+          </div>
+          <div class="insta2">
+            <div class="insta_txt">
+              <p>@lovecosmetics</p>
+              <a href="#none">more</a>
+            </div>
+          </div>
+          <div class="insta3">
+            <div class="insta_txt">
+              <p>@lovecosmetics</p>
+              <a href="#none">more</a>
+            </div>
+          </div>
+          <div class="insta4">
+            <div class="insta_txt">
+              <p>@lovecosmetics</p>
+              <a href="#none">more</a>
+            </div>
+          </div>
+          <div class="insta5">
+            <div class="insta_txt">
+              <p>@lovecosmetics</p>
+              <a href="#none">more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footer_top">
+          <div class="inner">
+            <ul class="ft_basic">
+              <li><a href="#none">바비브라운소개</a></li>
+              <li><a href="#none">이용약관</a></li>
+              <li><a href="#none">매장안내</a></li>
+              <li><a href="#none">개인정보처리약관</a></li>
+            </ul>
+            <ul class="ft_sns">
+              <li><a href="#none"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#none"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#none"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#none"><i class="fab fa-blogger-b"></i></a></li>
+              <li><a href="#none"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_bom inner">
+          <div class="call">
+            <span>고객센터</span>
+            <strong>02-3883-4563</strong>
+          </div>
+          <div class="ft_txt">
+            <div class="ft_txt1">
+              <p>이엘씨에이한국(유) 대표 SLAVIN PAUL 서울시 강남수 강남대로 382 (역삼동)  메리츠타워, 06232</p>
+              <span>사업자등록번호: 211-81-71889</span>
+              <span>통신판매업신고번호: 강남-15737호</span><br>
+              <span>사업자정보조회</span>
+            </div>
+            <div class="ft_txt2">
+              <p>고객관리지원팀: (02) 6971-3225</p>
+              <p>consumercare@kr.bobbibrown.com</p>
+            </div>
+            <div class="ft_txt3">
+              <p>Bobbi Brown Professional Cosmetics Inc. ALL RIGHTS RESERVED</p>
+              <p>호스팅서비스 사업자 : (주)엘지유플러스</p>
+            </div>
+          </div>
+          <ul class="ft_sns2">
+            <li><a href="#none"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#none"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#none"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#none"><i class="fab fa-blogger-b"></i></a></li>
+            <li><a href="#none"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="conts">
+      <a href="#header"></a>
+      <a href="#new"></a>
+      <a href="#recom"></a>
+      <a href="#best"></a>
+      <a href="#makeup"></a>
+      <a href="#special"></a>
+      <a href="#insta"></a>
+    </div>
+  </div>
+</body>
+</html>

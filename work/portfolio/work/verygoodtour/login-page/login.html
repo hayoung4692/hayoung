@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>참좋은여행 - 로그인페이지</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/login.css">
+
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+</head>
+<body>
+  <div id="container">
+    <!--header-->
+    <header>
+      <!--header_top-->
+      <div class="header_top">
+        <div class="inner">
+          <!--search-->
+          <div class="search">
+            <input type="search" placeholder="어디로 떠나고 싶으신가요?">
+            <input type="image" src="img/ico_search.png" alt="검색이미지">
+          </div>
+          <!--login-->
+          <div class="login">
+            <a href="#none">로그인</a>
+            <a href="#none">회원가입</a>
+            <a href="#none">고객센터</a>
+          </div>
+        </div>
+      </div>
+      <!--header_bom-->
+      <div class="inner header_bom">
+        <!--logo-->
+        <h1 class="logo">
+          <a href="../index.html">참좋은여행</a>
+        </h1>
+        <!--gnb-->
+        <ul class="gnb">
+          <li><a href="../sub-page/sub-page.html" target="_blank">해외여행</a>
+            <!--bar-->
+            <div class="bar">
+              <div class="inner sub_wrap">
+                <div class="sub_mu">
+                  <ul class="sub">
+                    <li><a href="#none">유럽</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동유럽</a></li>
+                        <li><a href="#none">서유럽</a></li>
+                        <li><a href="#none">남유럽</a></li>
+                        <li><a href="#none">북유럽</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아시아</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동북아시아</a></li>
+                        <li><a href="#none">중앙아시아</a></li>
+                        <li><a href="#none">동남아시아</a></li>
+                        <li><a href="#none">서남아시아</a></li>
+                        <li><a href="#none">서북아시아</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아메리카</a>
+                      <ul class="sub2">
+                        <li><a href="#none">북아메리카</a></li>
+                        <li><a href="#none">남아메리카</a></li>
+                        <li><a href="#none">중앙아메리카</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">아프리카</a>
+                      <ul class="sub2">
+                        <li><a href="#none">동아프리카</a></li>
+                        <li><a href="#none">서아프리카</a></li>
+                        <li><a href="#none">중앙아프리카</a></li>
+                        <li><a href="#none">남아프리카</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="sub">
+                    <li><a href="#none">오세아니아</a>
+                      <ul class="sub2">
+                        <li><a href="#none">오스트레일리아</a></li>
+                        <li><a href="#none">뉴질랜드</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#none">국내여행</a></li>
+          <li><a href="#none">테마여행</a></li>
+          <li><a href="#none">숙박시설</a></li>
+          <li><a href="#none">항공권검색</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--login-->
+    <section id="main1">
+      <div class="main1 inner">
+        <h2>로그인</h2>
+        <p>
+          회원가입 또는 계속하기를 클릭하면 참좋은여행의 <span>서비스 약관,<br>
+          결제 서비스 약관, 개인정보 보호정책, 차별금지정책</span>에 동의하는 것입니다.
+        </p>
+        <div class="main1_box">
+          <div class="main1_left">
+            <h3>회원로그인</h3>
+            <div class="input_box">
+              <div class="input_text">
+                <div class="id">
+                  <label for="id">아이디</label>
+                  <input type="text" placeholder="아이디를 입력해주세요" id="id"> 
+                </div>
+                <div class="pw">
+                  <label for="pw">비밀번호</label>
+                  <input type="password" id="pw" placeholder="비밀번호를 입력해주세요">
+                </div>
+              </div>
+              <div class="login_btn_box">
+                <button class="login_btn">로그인</button>
+              </div>
+            </div>
+            <div class="input_box2">
+              <input type="checkbox" id="auto">
+              <label for="auto">자동로그인</label>
+            </div>
+            <div class="or">
+              <p>또는</p>
+            </div>
+            <div class="kakao">
+              <strong>카카오계정</strong>
+              <p>카카오계정을 통해 원클릭으로 간편하게 이용 가능합니다.</p>
+              <a href="#none" class="kakao_btn"><img src="img/logo_kakaotalk_1.png" alt="카카오톡"><span>로그인 / 회원가입</span></a>
+            </div>
+          </div>
+          <div class="main1_right">
+            <div class="right1">
+              <p>아직 참좋은여행 계정이 없으신가요?</p>
+              <a href="#none">회원가입하러 가기</a>
+            </div>
+            <div class="right2">
+              <p>아이디를 잊어버리셨나요?</p>
+              <a href="#none">아이디 찾기</a>
+            </div>
+            <div class="right3">
+              <p>비밀번호를 잊어버리셨나요?</p>
+              <a href="#none">비밀번호 찾기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer id="footer">
+      <div class="footer inner">
+        <!--ft_left-->
+        <div class="ft_left">
+          <h2 class="ft_title">고객센터</h2>
+          <div class="call">
+            <img src="img/ico_comm.png" alt="고객센터">
+            <strong>1699-7773</strong>
+          </div>
+          <ul class="left_txt">
+            <li><span>운영시간</span><span>09:00~18:00</span></li>
+            <li><span>운영시간</span><span>09:00~18:00</span></li>
+            <li><span></span><span>(점심시간에는 상담업무가 제공되지 않습니다)</span></li>
+            <li><span>항공문의</span><span>064-744-7117(주말 및 공휴일 휴무)
+            </span></li>
+            <li><span>단체</span><span>064-742-4004</span></li>
+          </ul>
+        </div>
+        <!--ft_right-->
+        <div class="ft_right">
+          <ul class="basic">
+            <li>회사소개</li>
+            <li>사업제휴</li>
+            <li>개인정보취급방침</li>
+            <li>이용약관</li>
+            <li>수집거부</li>
+          </ul>
+          <div class="right_txt">
+            <p>
+              사업자번호: 540-81-01170 [사업자정보확인] | 통신판매업신고증 제 2018-서울강남-04699호 | 관광사업등록 제 2018-77호 | 대표자: 한창래 | 개인정보관리책임자: 조철희
+            </p>
+            <p>
+              주소: (본점)서울특별시 강남구 논현로 75길 8, 지하1층(역삼동, 비드 빌딩),(제주지점)제주특별자치도 제주시 청사로 26, 3층(도남동) ㈜제주닷컴 | 대표전화: 1544-3100 | 팩스: 064-749-4488
+            </p>
+            <address>Copyright (c) JEJU.COM. All rights reserved.</address>
+          </div>
+          <ul class="ft_icons">
+            <li>
+              <img src="img/iso_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+            <li>
+              <img src="img/kpita_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+            <li>
+              <img src="img/sbc_logo.png" alt="iso인증">
+              <span>
+                <a href="#none">품질경영시스템 인증</a><br>
+                <a href="#none">(ISO9001)</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

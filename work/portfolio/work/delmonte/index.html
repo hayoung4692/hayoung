@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!--JS-->
+  <script src="js/lib/jquery.3.6.0.js"></script>
+  <script src="js/lib/jquery-ui.min.js"></script>
+  <script src="js/lib/jquery.transform2d.js"></script>
+  <script src="js/custom.js"></script>
+
+</head>
+<body>
+  <div id="container">
+    <!--header-->
+    <header>
+      <div class="header">
+        <!--logo-->
+        <h1 class="logo">
+          <a href="#none"><img src="img/delmonte-logo.png" alt="델몬트로고"></a>
+        </h1>
+        <!--gnb-->
+        <ul class="gnb">
+          <li><a href="#none">델몬트</a>
+            <ul class="sub">
+              <li><a href="#none">브랜드스토리</a></li>
+              <li><a href="#none">히스토리</a></li>
+              <li><a href="#none">품질관리</a></li>
+              <li><a href="#none">찾아오시는길</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">제품</a>
+            <ul class="sub">
+              <li><a href="product/product.html" target="_blank">Veggieful</a></li>
+              <li><a href="#none">Vegetables</a></li>
+              <li><a href="#none">Fruits</a></li>
+              <li><a href="#none">Snacks</a></li>
+            </ul>
+          </li>
+          <li><a href="recipe/recipe.html" target="_blank">레시피</a>
+            <ul class="sub">
+              <li><a href="#none">인기레시피</a></li>
+              <li><a href="#none">추천레시피</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">소식</a>
+            <ul class="sub">
+              <li><a href="#none">뉴스</a></li>
+              <li><a href="#none">광고</a></li>
+              <li><a href="#none">캠페인</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">이벤트</a>
+            <ul class="sub">
+              <li><a href="#none">현재이벤트</a></li>
+              <li><a href="#none">지난이벤트</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="black_bar"></div>
+        <!--icon-->
+        <ul class="icon">
+          <li><a href="#none"><i class="fas fa-user"></i></a></li>
+          <li><a href="#none"><i class="fas fa-map-marker-alt"></i></a></li>
+          <li><a href="#none"><i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+      </header>
+      <!--banner-->
+      <div id="banner">
+        <div class="slides_wrap">
+          <div class="slides">
+            <a href="#none"><img src="img/banner1.png" alt=""></a>
+            <a href="#none"><img src="img/banner2.png" alt=""></a>
+            <a href="#none"><img src="img/banner3.png" alt=""></a>
+          </div>
+          <div class="arrow">
+            <a href="#none" class="prev_btn"><img src="img/arrow.png" alt="이전버튼"></a>
+            <a href="#none" class="next_btn"><img src="img/arrow2.png" alt="다음버튼"></a>
+          </div>
+          <div class="indicators">
+            <a href="#none"></a>
+            <a href="#none"></a>
+            <a href="#none"></a>
+          </div>
+        </div>
+      </div>
+      <!--product-->
+      <section id="product">
+        <div class="product inner">
+          <div class="main_txt">
+            <h2>Our Products</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="product_box">
+            <a href="#none">
+              <div class="product_img">
+                <img src="img/icon1.png" alt="">
+              </div>
+              <div class="product_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="product_img">
+                <img src="img/icon2.png" alt="">
+              </div>
+              <div class="product_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="product_img">
+                <img src="img/icon3.png" alt="">
+              </div>
+              <div class="product_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="product_img">
+                <img src="img/icon4.png" alt="">
+              </div>
+              <div class="product_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--delmonte-->
+      <section id="delmonte">
+        <div class="delmonte inner">
+          <div class="main_txt">
+            <h2>Our Del Monte</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="delmonte_box">
+            <a href="#none">
+              <div class="delmonte_img"></div>
+              <div class="delmonte_txt">
+                <strong>Veggieful</strong>
+                <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+                <span>복숭아 통조림</span>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="delmonte_img"></div>
+              <div class="delmonte_txt">
+                <strong>Veggieful</strong>
+                <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+                <span>복숭아 통조림</span>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="delmonte_img"></div>
+              <div class="delmonte_txt">
+                <strong>Veggieful</strong>
+                <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+                <span>복숭아 통조림</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--best-->
+      <section id="best">
+        <div class="best inner">
+          <div class="best_box">
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/mango.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/peach.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/potato.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/oranges.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="main_txt">
+                  <h2>Our Products</h2>
+                  <p>채소를 곁들인 신선한 제품</p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/orange2.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/bae.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/veggie.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <div class="best_img">
+                  <img src="img/bubble.png" alt="">
+                </div>
+                <div class="best_txt">
+                  <strong>[삼양식품] 맛있는라면 비건 100g x 4입</strong>
+                  <div class="sale">
+                    <span>20%</span>
+                    <span>4,120원</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="strength">
+        <div class="strength inner">
+          <div class="main_txt">
+            <h2>Our Products</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="strength_box">
+            <a href="#none">
+              <div class="strength_img"></div>
+              <div class="strength_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+                <p>VEGETABLE JUICE & ORANGE SAUCE</p>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="strength_img"></div>
+              <div class="strength_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+                <p>VEGETABLE JUICE & ORANGE SAUCE</p>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="strength_img"></div>
+              <div class="strength_txt">
+                <strong>Veggieful</strong>
+                <p>채소를 곁들인 신선한 제품</p>
+                <p>VEGETABLE JUICE & ORANGE SAUCE</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--story-->
+      <section id="story">
+        <div class="story inner">
+          <div class="main_txt">
+            <h2>Del Monte Brand Story</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <span>- since 1982 -</span>
+          <a href="#none" class="more_story"><span>브랜드 스토리</span> 더보기 +</a>
+        </div>
+      </section>
+      <!--recipe-->
+      <section id="recipe">
+        <div class="recipe inner">
+          <div class="main_txt">
+            <h2>Our Recipe</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="recipe_box">
+            <div class="r_left">
+              <div class="r_left_top">
+                <a href="#none">
+                  <div class="recipe_img"></div>
+                  <div class="recipe_txt">
+                    <strong>[특가] 싱싱한 오렌지 통조림 200g*10</strong>
+                    <div class="r_sale">
+                      <span>35,400원</span>
+                      <span><del>35,400원</del></span>
+                      <span>30%</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="num">2</div>
+              </div>
+              <div class="r_left_bom">
+                <a href="#none">
+                  <div class="recipe_img"></div>
+                  <div class="recipe_txt">
+                    <strong>[특가] 싱싱한 오렌지 통조림 200g*10</strong>
+                    <div class="r_sale">
+                      <span>35,400원</span>
+                      <span><del>35,400원</del></span>
+                      <span>30%</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="num">3</div>
+              </div>
+            </div>
+            <div class="r_mid">
+              <a href="#none">
+                <div class="recipe_img"></div>
+                <div class="recipe_txt">
+                  <strong>[특가] 싱싱한 오렌지 통조림 200g*10</strong>
+                  <div class="r_sale">
+                    <span>35,400원</span>
+                    <span><del>35,400원</del></span>
+                    <span>30%</span>
+                  </div>
+                </div>
+              </a>
+              <div class="num">1</div>
+            </div>
+            <div class="r_right">
+              <div class="r_right_top">
+                <a href="#none">
+                  <div class="recipe_img"></div>
+                  <div class="recipe_txt">
+                    <strong>[특가] 싱싱한 오렌지 통조림 200g*10</strong>
+                    <div class="r_sale">
+                      <span>35,400원</span>
+                      <span><del>35,400원</del></span>
+                      <span>30%</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="num">4</div>
+              </div>
+              <div class="r_right_bom">
+                <a href="#none">
+                  <div class="recipe_img"></div>
+                  <div class="recipe_txt">
+                    <strong>[특가] 싱싱한 오렌지 통조림 200g*10</strong>
+                    <div class="r_sale">
+                      <span>35,400원</span>
+                      <span><del>35,400원</del></span>
+                      <span>30%</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="num">5</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--news-->
+      <section id="news">
+        <div class="news inner">
+          <div class="main_txt">
+            <h2>Our News</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="news_box">
+            <a href="#none">
+              <div class="news_img"></div>
+              <div class="news_txt">
+                <strong>델몬트, 2019년을 신임 대표에 강석호...</strong>
+                <p>2019-07-10</p>
+                <span>MORE</span>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="news_img"></div>
+              <div class="news_txt">
+                <strong>델몬트, 2019년을 신임 대표에 강석호...</strong>
+                <p>2019-07-10</p>
+                <span>MORE</span>
+              </div>
+            </a>
+            <a href="#none">
+              <div class="news_img"></div>
+              <div class="news_txt">
+                <strong>델몬트, 2019년을 신임 대표에 강석호...</strong>
+                <p>2019-07-10</p>
+                <span>MORE</span>
+              </div>
+            </a>
+          </div>
+          <a href="#none" class="more_news">더보러 가기</a>
+        </div>
+      </section>
+      <!--events-->
+      <section id="events">
+        <div class="events inner">
+          <div class="main_txt">
+            <h2>Our Events</h2>
+            <p>채소를 곁들인 신선한 제품 채소를 곁들인 신선한 제품</p>
+          </div>
+          <div class="events_slide">
+            <div class="events_box">
+              <a href="#none"><img src="img/ad1.png" alt="광고이미지1"></a>
+              <a href="#none"><img src="img/ad2.png" alt="광고이미지2"></a>
+            </div>
+            <div class="events_btn">
+              <a href="#none" class="e_prev"><i class="fas fa-chevron-left"></i></a>
+              <a href="#none" class="e_next"><i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="events_dot">
+              <a href="#none"></a>
+              <a href="#none"></a>
+              <a href="#none"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--etc-->
+      <section id="etc">
+        <div class="etc1">
+          <div class="etc_txt">
+            <h3>Our Products</h3>
+            <a href="#none">Learn more</a>
+          </div>
+          <div class="black"></div>
+        </div>
+      </section>
+      <!--footer-->
+      <footer>
+        <div class="footer">
+          <div class="footer_top">
+            <div class="inner">
+              <div class="lang">
+                <a href="#none"><img src="img/lang1.png" alt=""></a>
+                <a href="#none"><img src="img/lang2.png" alt=""></a>
+                <a href="#none"><img src="img/lang3.png" alt=""></a>
+                <a href="#none"><img src="img/lang4.png" alt=""></a>
+              </div>
+              <div class="sns">
+                <a href="#none"><i class="fab fa-facebook-f"></i></a>
+                <a href="#none"><i class="fab fa-twitter"></i></a>
+                <a href="#none"><i class="fab fa-youtube"></i></a>
+                <a href="#none"><i class="fab fa-blogger-b"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bom inner">
+            <div class="f_basic">
+              <p>자기소개</p>
+              <p>이용약관</p>
+              <p class="personal">개인정보처리방침</p>
+              <p>이용안내</p>
+            </div>
+            <div class="f_center">
+              <strong>델몬트 고객센터 (주문/배송)</strong>
+              <p>080.788.8388</p>
+              <p>AM 9:30~PM 17:30 (Lunch Time PM 12:00~13:00 / 토,일 공휴일 휴무)</p>
+            </div>
+            <div class="f_txt">
+              <p>
+                한국델몬트후레쉬프로듀스㈜ 대표이사 강석호<br>
+                06158 서울시 강남구 삼성로 511 골든타워 11층 | 사업자등록번호 120-81-94591<br>
+                본 사이트에서 사용된 상표는미국과 국제법에 의해 보호받습니다.
+              </p>
+              <address>COPYRIGHT © 1998 BY DEL MONTE FRESH PRODUCE(KOREA) LTD.</address>
+            </div>
+            <div class="family">
+              <form action="php">
+                <select name="family" id="family">
+                  <option value="family site">Family Site</option>
+                  <option value="naver">naver</option>
+                  <option value="kakao">kakao</option>
+                  <option value="youtube">youtube</option>
+                  <option value="blog">blog</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

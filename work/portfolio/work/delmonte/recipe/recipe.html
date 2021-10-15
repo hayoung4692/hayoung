@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/recipe.css">
+
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!--JS-->
+  <script src="js/lib/jquery.3.6.0.js"></script>
+  <script src="js/lib/jquery-ui.min.js"></script>
+  <script src="js/lib/jquery.transform2d.js"></script>
+  <script src="js/recipe.js"></script>
+
+</head>
+<body>
+  <div id="container">
+    <!--header-->
+    <header>
+      <div class="header">
+        <!--logo-->
+        <h1 class="logo">
+          <a href="#none"><img src="img/delmonte-logo.png" alt="델몬트로고"></a>
+        </h1>
+        <!--gnb-->
+        <ul class="gnb">
+          <li><a href="#none">델몬트</a>
+            <ul class="sub">
+              <li><a href="#none">브랜드스토리</a></li>
+              <li><a href="#none">히스토리</a></li>
+              <li><a href="#none">품질관리</a></li>
+              <li><a href="#none">찾아오시는길</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">제품</a>
+            <ul class="sub">
+              <li><a href="#none">Veggieful</a></li>
+              <li><a href="#none">Vegetables</a></li>
+              <li><a href="#none">Fruits</a></li>
+              <li><a href="#none">Snacks</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">레시피</a>
+            <ul class="sub">
+              <li><a href="#none">인기레시피</a></li>
+              <li><a href="#none">추천레시피</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">소식</a>
+            <ul class="sub">
+              <li><a href="#none">뉴스</a></li>
+              <li><a href="#none">광고</a></li>
+              <li><a href="#none">캠페인</a></li>
+            </ul>
+          </li>
+          <li><a href="#none">이벤트</a>
+            <ul class="sub">
+              <li><a href="#none">현재이벤트</a></li>
+              <li><a href="#none">지난이벤트</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="black_bar"></div>
+        <!--icon-->
+        <ul class="icon">
+          <li><a href="#none"><i class="fas fa-user"></i></a></li>
+          <li><a href="#none"><i class="fas fa-map-marker-alt"></i></a></li>
+          <li><a href="#none"><i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </header>
+    <!--banner-->
+    <div id="banner">
+      <div class="slides">
+        <a href="#none">
+          <p>Vegetables and Fruits special</p>
+        </a>
+      </div>
+    </div>
+    <!--recipe-->
+    <section id="recipe">
+      <div class="recipe inner">
+        <!--up-->
+        <div class="up">
+          <strong>델몬트 추천 레시피</strong>
+          <select name="select" id="select">
+            <option value="new">새로 나온 순</option>
+            <option value="popular">인기 순</option>
+            <option value="name">이름 순</option>
+            <option value="price">가격 낮은 순</option>
+          </select>
+        </div>
+        <!--down-->
+        <div class="down">
+          <div>
+            <div class="down_img">
+              <img src="img/dounut.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/bananachoco.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/cake.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/yogurt.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/sand.png" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/flight.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/골드파인크럼블파이.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+          <div>
+            <div class="down_img">
+              <img src="img/바나나단팥튀김.jpg" alt="">
+            </div>
+            <div class="down_txt">
+              <span>바나나 크림 도넛</span>
+              <a href="#none">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--recom-->
+    <section id="recom">
+      <div class="recom inner">
+        <!--up-->
+        <div class="up">
+          <strong>델몬트 추천 레시피</strong>
+          <a href="#none">더보기 +</a>
+        </div>
+        <!--recom_box-->
+        <div class="recom_box">
+          <a href="#none">
+            <div class="recom_img"></div>
+            <div class="recom_txt">
+              <strong>Veggieful</strong>
+              <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+              <span>복숭아 통조림</span>
+            </div>
+          </a>
+          <a href="#none">
+            <div class="recom_img"></div>
+            <div class="recom_txt">
+              <strong>Veggieful</strong>
+              <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+              <span>복숭아 통조림</span>
+            </div>
+          </a>
+          <a href="#none">
+            <div class="recom_img"></div>
+            <div class="recom_txt">
+              <strong>Veggieful</strong>
+              <p>달콤한 과일향이 감도는 복숭아 통조림</p>
+              <span>복숭아 통조림</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--youtube-->
+    <section id="youtube">
+      <div class="youtube inner">
+        <!--up-->
+        <div class="up">
+          <strong>델몬트 추천 레시피</strong>
+          <a href="#none">더보기 +</a>
+        </div>
+        <!--youtube_box-->
+        <div class="youtube_box">
+          <div class="youtube1">
+            <div class="youtube_txt">
+              <strong>
+                조합원의 생생한<br>
+                <span>이용후기</span>
+              </strong>
+              <p>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.<br>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.
+              </p>
+              <a href="#none">더보기 +</a>
+            </div>
+            <div class="youtube_img">
+              <video controls autoplay muted loop>
+                <source src="img/recipe.mp4">
+              </video>
+            </div>
+          </div>
+          <div class="youtube2">
+            <div class="youtube_img">
+              <video controls autoplay muted loop>
+                <source src="img/Teriyaki.mp4">
+              </video>
+            </div>
+            <div class="youtube_txt">
+              <strong>
+                조합원의 생생한<br>
+                <span>이용후기</span>
+              </strong>
+              <p>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.<br>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.
+              </p>
+              <a href="#none">더보기 +</a>
+            </div>
+          </div>
+          <div class="youtube3">
+            <div class="youtube_txt">
+              <strong>
+                조합원의 생생한<br>
+                <span>이용후기</span>
+              </strong>
+              <p>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.<br>
+                최고였습니다. 맛도 향도 그런데 이용후기를 이런식으로 <br>
+                굳이 복잡하게 다시 찾아 들어가서 작성하게 만든것이 무척 <br>
+                불편하다고 느껴졌습니다.
+              </p>
+              <a href="#none">더보기 +</a>
+            </div>
+            <div class="youtube_img">
+              <video controls autoplay muted loop>
+                <source src="img/recipe.mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--hugi-->
+    <section id="hugi">
+      <div class="hugi inner">
+        <!--up-->
+        <div class="up">
+          <strong>생생한 레시피 후기</strong>
+          <a href="#none">더보기 +</a>
+        </div>
+        <!--hugi_box-->
+        <div class="hugi_box">
+          <div class="hugi1">
+            <div class="h_img"><img src="img/bananachoco.jpg" alt=""></div>
+            <div class="h_txt">
+              <strong>복숭아 아이스크림 후기</strong>
+              <div class="star"><img src="img/star.png" alt=""></div>
+              <p>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.<br>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.
+              </p>
+              <span>kud***</span>
+            </div>
+          </div>
+          <div class="hugi2">
+            <div class="h_img"><img src="img/yogurt.jpg" alt=""></div>
+            <div class="h_txt">
+              <strong>복숭아 아이스크림 후기</strong>
+              <div class="star"><img src="img/star2.png" alt=""></div>
+              <p>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.<br>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.
+              </p>
+              <span>kud***</span>
+            </div>
+          </div>
+          <div class="hugi3">
+            <div class="h_img"><img src="img/골드파인크럼블파이.jpg" alt=""></div>
+            <div class="h_txt">
+              <strong>복숭아 아이스크림 후기</strong>
+              <div class="star"><img src="img/star3.png" alt=""></div>
+              <p>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.<br>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.
+              </p>
+              <span>kud***</span>
+            </div>
+          </div>
+          <div class="hugi4">
+            <div class="h_img"><img src="img/바나나단팥튀김.jpg" alt=""></div>
+            <div class="h_txt">
+              <strong>복숭아 아이스크림 후기</strong>
+              <div class="star"><img src="img/star.png" alt=""></div>
+              <p>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.<br>
+                리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.리뷰 내용이 노출됩니다.
+              </p>
+              <span>kud***</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <div class="footer_top">
+          <div class="inner">
+            <div class="lang">
+              <a href="#none"><img src="img/lang1.png" alt=""></a>
+              <a href="#none"><img src="img/lang2.png" alt=""></a>
+              <a href="#none"><img src="img/lang3.png" alt=""></a>
+              <a href="#none"><img src="img/lang4.png" alt=""></a>
+            </div>
+            <div class="sns">
+              <a href="#none"><i class="fab fa-facebook-f"></i></a>
+              <a href="#none"><i class="fab fa-twitter"></i></a>
+              <a href="#none"><i class="fab fa-youtube"></i></a>
+              <a href="#none"><i class="fab fa-blogger-b"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bom inner">
+          <div class="f_basic">
+            <p>자기소개</p>
+            <p>이용약관</p>
+            <p class="personal">개인정보처리방침</p>
+            <p>이용안내</p>
+          </div>
+          <div class="f_center">
+            <strong>델몬트 고객센터 (주문/배송)</strong>
+            <p>080.788.8388</p>
+            <p>AM 9:30~PM 17:30 (Lunch Time PM 12:00~13:00 / 토,일 공휴일 휴무)</p>
+          </div>
+          <div class="f_txt">
+            <p>
+              한국델몬트후레쉬프로듀스㈜ 대표이사 강석호<br>
+              06158 서울시 강남구 삼성로 511 골든타워 11층 | 사업자등록번호 120-81-94591<br>
+              본 사이트에서 사용된 상표는미국과 국제법에 의해 보호받습니다.
+            </p>
+            <address>COPYRIGHT © 1998 BY DEL MONTE FRESH PRODUCE(KOREA) LTD.</address>
+          </div>
+          <div class="family">
+            <form action="php">
+              <select name="family" id="family">
+                <option value="family site">Family Site</option>
+                <option value="naver">naver</option>
+                <option value="kakao">kakao</option>
+                <option value="youtube">youtube</option>
+                <option value="blog">blog</option>
+              </select>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
