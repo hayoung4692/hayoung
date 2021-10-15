@@ -48,7 +48,19 @@ $(document).ready(function(){
     } else {
       $('.design_box>div').removeClass('up')
     }
+
+    // about
+    if($(this).scrollTop()>=$detail-60){
+      $('.detail_r>div').addClass('up')
+      $('.detail_r>div').addClass('up')
+    } else {
+      $('.detail_r>div').removeClass('up')
+      $('.detail_r>div').removeClass('up')
+    }
+
+
   })
+
 
   // gnb
   $('.gnb>li:nth-child(1)').click(function(){
