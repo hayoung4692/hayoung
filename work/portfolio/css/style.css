@@ -30,7 +30,8 @@ p {margin: 0;}
 
 /* header */
 #header {
-  border-bottom: 1px solid #666; 
+  /* border-bottom: 1px solid #666;  */
+  border-bottom: 1px solid #999;
   background-color: transparent;
   position: fixed; 
   left: 0; top: 0;
