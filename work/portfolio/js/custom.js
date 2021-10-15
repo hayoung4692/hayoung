@@ -70,5 +70,25 @@ $(document).ready(function(){
     $('html,body').animate({'scrollTop':$contact},600)
   })
 
+  // popup
+  $('.close_btn1').click(function(){
+    $('#popup1').css('display','none')
+  })
+  $('.con_btn1').click(function(){
+    $('#popup1').css('display','block')
+  })
 
+  $('.close_btn2').click(function(){
+    $('#popup2').css('display','none')
+  })
+  $('.con_btn2').click(function(){
+    $('#popup2').css('display','block')
+  })
+
+  $('.close_btn3').click(function(){
+    $('#popup3').css('display','none')
+  })
+  $('.con_btn3').click(function(){
+    $('#popup3').css('display','block')
+  })
 })
