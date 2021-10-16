@@ -70,16 +70,16 @@ $(document).ready(function(){
     $('html,body').animate({'scrollTop':$skill},600)
   })
   $('.gnb>li:nth-child(3)').click(function(){
-    $('html,body').animate({'scrollTop':$website+120},600)
+    $('html,body').animate({'scrollTop':$website+200},600)
   })
   $('.gnb>li:nth-child(4)').click(function(){
-    $('html,body').animate({'scrollTop':$design+160},600)
+    $('html,body').animate({'scrollTop':$design+750},600)
   })
   $('.gnb>li:nth-child(5)').click(function(){
-    $('html,body').animate({'scrollTop':$detail},600)
+    $('html,body').animate({'scrollTop':$detail+750},600)
   })
   $('.gnb>li:nth-child(6)').click(function(){
-    $('html,body').animate({'scrollTop':$contact},600)
+    $('html,body').animate({'scrollTop':$contact+650},600)
   })
 
   // popup
