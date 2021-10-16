@@ -1,3 +1,5 @@
+{%= raw %}
+
 # {%= name %}
 
 > {%= description %}
@@ -30,3 +32,5 @@
 
 ## Copyright
 {%= copyright %} {%= license %}
+
+{%= endraw %}
