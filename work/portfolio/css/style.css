@@ -187,15 +187,28 @@ p {margin: 0;}
   flex-direction: column; 
   justify-content: center; 
   margin-right: 240px;
-  width: 160px;
   margin-bottom: 90px;
   text-align: center;
 }
 .skill_box>div:nth-child(3), .skill_box>div:nth-child(6) {margin-right: 0;}
 .skill_box>div:nth-child(4), .skill_box>div:nth-child(5), .skill_box>div:nth-child(6) {margin-bottom: 0;}
 
-.sb_img {}
-.sb_txt {color: #fff; font-size: 26px; margin-top: 20px;}
+.chart {
+  float: left; 
+  width: 33.33%; 
+  height: 200px; 
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.chart span.title {
+  position: absolute;
+  left: 115%; top: 42%;
+  color: #fff;
+  font-size: 22px;
+}
+
+.sb_txt {color: #fff; font-size: 24px;}
 
 /* website */
 #website {transform: skewY(6deg); background: #3E4651 url(../img/Untitled-4.png) no-repeat center center/cover;}

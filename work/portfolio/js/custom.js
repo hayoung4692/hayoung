@@ -58,6 +58,20 @@ $(document).ready(function(){
       $('.detail_r>div').removeClass('up')
     }
 
+    if($(this).scrollTop()>=$skill-550){
+      $('.chart').easyPieChart({
+        barColor: '#388484',
+        trackColor: '#bdeff1',
+        scaleColor: 'none',
+        lineCap: 'butt',
+        lineWidth: 30,
+        size: 200,
+        animate: 1000,
+        onStart: $.noop,
+        onStop: $.noop
+      });
+    }
+
 
   })
 
@@ -103,4 +117,6 @@ $(document).ready(function(){
   $('.con_btn3').click(function(){
     $('#popup3').css('display','block')
   })
+
+
 })
