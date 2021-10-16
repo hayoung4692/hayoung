@@ -70,10 +70,10 @@ $(document).ready(function(){
     $('html,body').animate({'scrollTop':$skill},600)
   })
   $('.gnb>li:nth-child(3)').click(function(){
-    $('html,body').animate({'scrollTop':$website},600)
+    $('html,body').animate({'scrollTop':$website+120},600)
   })
   $('.gnb>li:nth-child(4)').click(function(){
-    $('html,body').animate({'scrollTop':$design},600)
+    $('html,body').animate({'scrollTop':$design+160},600)
   })
   $('.gnb>li:nth-child(5)').click(function(){
     $('html,body').animate({'scrollTop':$detail},600)

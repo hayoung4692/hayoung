@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6 {margin: 0; padding: 0;}
 img {width: 100%; vertical-align: top;}
 p {margin: 0;}
 
-#container {position: relative;}
+#container {position: relative; min-width: 1480px;}
 
 /* common */
 .inner {width: 1280px; margin: 0 auto;}
