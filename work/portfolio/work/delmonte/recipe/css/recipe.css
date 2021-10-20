@@ -139,7 +139,7 @@ header {
 
   /* down_txt */
   .down_txt {text-align: center;}
-    .down_txt>span {margin: 12px 0; display: block; font-size: 18px;}
+    .down_txt>span {margin: 12px 0; display: block;}
     .down_txt>a { 
       display: inline-block; 
       font-size: 14px; 
@@ -173,7 +173,7 @@ header {
   }
   .recom_box>a:nth-child(1) .recom_img {background: url(../img/cok.jpeg) no-repeat center center/cover;}
   .recom_box>a:nth-child(2) .recom_img {background: url(../img/tomato.jpeg) no-repeat center top/cover;}
-  .recom_box>a:nth-child(3) .recom_img {background: url(../img/ice.jpeg) no-repeat left top/cover;}
+  .recom_box>a:nth-child(3) .recom_img {background: url(../img/jam.jpg) no-repeat left top/cover;}
 
   .recom_txt {text-align: center; padding: 20px 0;}
   .recom_txt>strong {
@@ -203,30 +203,57 @@ header {
   .youtube_txt>strong {
     position: relative;
     display: block;
-    font-size: 24px; 
+    font-size: 18px;
     font-weight: normal; 
     color: #666; 
-    padding-bottom: 15px; 
-    margin-bottom: 15px;
+    padding-bottom: 30px; 
+    margin-bottom: 30px;
   }
   .youtube_txt>strong::after {
     position: absolute; 
     bottom: 0; left: 0; 
     content: ''; 
     background-color: #000; 
-    width: 45px; height: 2px;
+    width: 65px; height: 2px;
   }
-  .youtube_txt>strong>span {font-weight: bold; color: #000;}
-  .youtube_txt>p {line-height: 1.5; font-size: 15px; margin-bottom: 80px;}
+  .youtube_txt>strong>span {
+    font-weight: bold; 
+    color: #000;     
+    font-size: 24px;
+  }
+  .youtube_txt>p {
+    line-height: 1.5; 
+    font-size: 15px; 
+    margin-bottom: 30px;
+  }
+  .hard {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+    color: orange;
+    font-weight: bold;
+  }
+  .hard>span:nth-child(2) {margin-left: 10px;}
+
+  .youtube_txt>a {
+    color: orange; 
+    border: 2px solid; 
+    font-size: 14px;
+    border-radius: 20px; 
+    padding: 3px 30px; 
+    display: inline-block;
+  }
+  .youtube_txt>a:hover {background-color: orange; color: #fff;}
 
   .youtube2>.youtube_txt {padding: 30px; margin-left: 20px; margin-right: 0;}
+
 
 /* youtube_img */
 .youtube_img {width: 720px;}
 .youtube_img video {width: 100%; height: 100%;}
 
 /* hugi */
-#hugi {background: url(../img/Artboard\ 1.png) no-repeat center center/cover;}
+#hugi {background: url(../img/Artboard-1.png) no-repeat center center/cover;}
 .hugi {}
 
 .hugi_box {display: flex; flex-wrap: wrap;}
