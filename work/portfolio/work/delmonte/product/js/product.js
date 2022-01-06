@@ -62,13 +62,13 @@ $(document).ready(function(){
   $('.best_left>a:nth-child(1)').css('opacity',1).siblings().css('opacity',0);
 
   $('.best_right_box>a:nth-child(1)').click(function(){
-    $('.best_left>a:nth-child(2)').css('opacity',1).siblings().css('opacity',0);
+    $('.best_left>a:nth-child(1)').css('opacity',1).siblings().css('opacity',0);
   })
   $('.best_right_box>a:nth-child(2)').click(function(){
-    $('.best_left>a:nth-child(3)').css('opacity',1).siblings().css('opacity',0);
+    $('.best_left>a:nth-child(2)').css('opacity',1).siblings().css('opacity',0);
   })
   $('.best_right_box>a:nth-child(3)').click(function(){
-    $('.best_left>a:nth-child(4)').css('opacity',1).siblings().css('opacity',0);
+    $('.best_left>a:nth-child(3)').css('opacity',1).siblings().css('opacity',0);
   })
 
 })
