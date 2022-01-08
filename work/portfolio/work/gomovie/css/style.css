@@ -62,6 +62,20 @@ section > div > div > div > p {
 #cinema {padding: 100px 0;}
 #footer {background-color: #E7E7E7;}
 
+/* skip */
+#skip {position: relative; z-index: 50;}
+#skip >  a {
+  position: absolute;
+  left: 0; top: -40px;
+  width: 140px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  background-color: #333;
+}
+#skip a:active, #skip a:focus {top: 0;}
+
 /* header */
 .header {}
 
@@ -188,7 +202,7 @@ section > div > div > div > p {
 .news {}
 
   .news_box {display: flex;}
-  .news_box > div {margin-right: 2%; width: 32%;}
+  .news_box > div {margin-right: 2%; width: 32%; position: relative;}
   .news_box > div:last-child {margin-right: 0;}
 
     /* news_img */
@@ -206,6 +220,13 @@ section > div > div > div > p {
       overflow: hidden;
     }
     .news_txt span {font-size: 14px; color: #999;}
+
+    /* news_n */
+    .news_n {
+      position: absolute;
+      left: 10px; top: -8px;
+      width: 30px;
+    }
 
   /* news_more */
   .news_more {text-align: center; margin-top: 40px;}
@@ -366,14 +387,14 @@ section > div > div > div > p {
     position: relative;
   }
   .grand .grand_box > div:last-child {margin-right: 0;}
-  .grand .grand_box > div strong {color: #fff; font-size: 18px;}
+  .grand .grand_box > div strong {color: #fff; font-size: 1.8vw;}
   .grand .grand_box > div span {
     color: #ddd; 
-    font-size: 14px; 
+    font-size: 1.3vw;
     margin: 8px 0; 
     display: block;
   }
-  .grand .grand_box > div p {color: #ddd; font-size: 14px;}
+  .grand .grand_box > div p {color: #ddd; font-size: 1.4vw;}
   .gb_new {
     position: absolute;
     left: 10px; top: -10px;
@@ -464,10 +485,14 @@ section > div > div > div > p {
   .footer_r p {font-size: 14px; color: #999;}
 
 /* 미디어쿼리 */
-@media (max-width: 1120px) {
+@media (max-width: 1146px) {
 
   /* 기본 레이아웃 */
   .container {width: 100%;}
+
+}
+
+@media (max-width: 1120px) {
 
   /* footer */
   .footer .logo_f {margin-right: 5%;}
@@ -490,6 +515,10 @@ section > div > div > div > p {
     height: 44px !important; 
     background-size: 27px 44px !important;
   }
+
+  .event_txt strong {font-size: 2vw;}
+  .event_txt p {font-size: 1.4vw;}
+  .event_txt a {font-size: 1.6vw;}
 
   /* today */
   .today_left .today_click a {font-size: 14px;}
@@ -577,6 +606,7 @@ section > div > div > div > p {
   .news_txt {display: flex; justify-content: space-between; align-items: center;}
   .news_txt p {margin-bottom: 0; width: 80%; font-size: 18px;}
   .news_txt span {font-size: 14px; width: 20%; text-align: right;}
+  .news_n {width: 6vw;}
 
   /* today */
   .today {padding-bottom: 0;}
@@ -727,6 +757,7 @@ section > div > div > div > p {
 
   /* today */
   .rm_txt {display: none;}
+  .rm_rank {width: 30px;}
 
    /* event */
   .event_box > div {
@@ -736,10 +767,10 @@ section > div > div > div > p {
     margin-bottom: 10% !important;
   }
   .event_box > div:nth-child(3), .event_box > div:nth-child(5) {display: none;}
-  .img_et {padding: 90px 0;}
-  .img_et strong {font-size: 24px;}
-  .img_et p {font-size: 18px; margin: 30px 0;}
-  .img_et a {font-size: 18px;}
+  .img_et {padding: 19vw 0;}
+  .img_et strong {font-size: 6vw;}
+  .img_et p {font-size: 4vw; margin: 30px 0;}
+  .img_et a {font-size: 4vw;}
   
   /* cinema */
   .ask > ul li {width: 100%; padding-top: 100%;}
