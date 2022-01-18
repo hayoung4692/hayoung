@@ -1040,6 +1040,9 @@ section > div > div > div > p {
 
   .best_r {display: none;}
 
+  .ask > ul li a strong {font-size: 5vw;}
+  .rm_txt p {margin-bottom: 1vw;}
+
 }
 @media (max-width: 320px) {
 
