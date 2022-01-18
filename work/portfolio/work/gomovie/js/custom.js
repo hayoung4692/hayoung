@@ -1,16 +1,16 @@
 // 배너 이미지 슬라이드
-var swiper = new Swiper('.swiper-container',{
-  pagination: {
-    el: '.swiper-pagination',
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  autoplay: {
-    delay: 5000,
-  },
-});
+// var swiper = new Swiper('.swiper-container',{
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//   autoplay: {
+//     delay: 5000,
+//   },
+// });
 
 // 영화차트 슬라이드
 var mySwiper = new Swiper('.swiper-container2', {
@@ -72,13 +72,6 @@ $(window).resize(function(){
   var gnbBtn = $('.header_bom .icon a');
   gnblong.removeClass('open2');
 
-  // gnbBtn.click(function(){
-  //   if(gnblong.hasClass('open2')){
-  //     gnblong.removeClass('open2')
-  //   } else {
-  //     gnblong.addClass('open2')
-  //   }
-  // })
   gnbBtn.click(function(){
     if(gnblong.hasClass('open2')){
       gnblong.removeClass('open2')
@@ -97,11 +90,11 @@ $(window).resize(function(){
 
   if(winWid<=600){
     $('.slider .ss3').css({"background": "url(../img/banner1-1.png)", "background-position": "center center"})
-    $('.slider .ss1').css({"background": "url(../img/banner1-2.png)", "background-position": "center center"})
-    $('.slider .ss2').css({"background": "url(../img/banner1-3.png)", "background-position": "center center"})
+    // $('.slider .ss1').css({"background": "url(../img/banner1-2.png)", "background-position": "center center"})
+    // $('.slider .ss2').css({"background": "url(../img/banner1-3.png)", "background-position": "center center"})
   } else {
-    $('.slider .ss1').css({"background": "url(../img/banner1.jpg)", "background-position": "center center","background-size": "cover"})
-    $('.slider .ss2').css({"background": "url(../img/friend1.png)", "background-position": "center center","background-size": "cover"})
+    // $('.slider .ss1').css({"background": "url(../img/banner1.jpg)", "background-position": "center center","background-size": "cover"})
+    // $('.slider .ss2').css({"background": "url(../img/friend1.png)", "background-position": "center center","background-size": "cover"})
     $('.slider .ss3').css({"background": "url(../img/banner3.jpg)", "background-position": "center center","background-size": "cover"})
   }
 
