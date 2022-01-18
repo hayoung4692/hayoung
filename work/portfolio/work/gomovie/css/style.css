@@ -1040,6 +1040,14 @@ section > div > div > div > p {
 
   .best_r {display: none;}
 
+  .news_n {width: 8vw;}
+  .news_box > div {margin-bottom: 7%;}
+  .movie_title ul li a {font-size: 14px;}
+
+  .rm_txt p {margin-bottom: 2vw;}
+  .ask > ul li a strong {font-size: 5vw;}
+  .ask > ul li a span {margin-bottom: 2vw;}
+
 }
 @media (max-width: 320px) {
 
