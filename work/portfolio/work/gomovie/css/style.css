@@ -556,23 +556,24 @@ section > div > div > div > p {
   .grand .grand_box > div:last-child {margin-right: 0;}
 
   .gb_txt {position: absolute; left: 5%; top: 13%; width: 90%;}
-  .gb_txt  strong {color: #fff; font-size: 18px;}
+  .gb_txt  strong {color: #fff; font-size: 18px; transition: all 0.3s;}
   .gb_txt  span {
     color: #ddd; 
     font-size: 18px;
     margin: 8px 0; 
     display: block;
+    transition: all 0.3s;
   }
-  .gb_txt  p {color: #ddd; font-size: 14px;}
+  .gb_txt  p {color: #ddd; font-size: 14px; transition: all 0.3s;}
   .gb_new {
     position: absolute;
     left: 10px; top: -10px;
     width: 50px;
   }
-  .grand .grand_box > div:hover {background-color: #fff}
-  .grand .grand_box > div:hover strong {color: #333;}
-  .grand .grand_box > div:hover span {color: #666;}
-  .grand .grand_box > div:hover p {color: #666;}
+  .grand .grand_box > div:hover {border: 1px solid #bb9b51;}
+  .grand .grand_box > div:hover .gb_txt  strong {color: #bb9b51;}
+  .grand .grand_box > div:hover .gb_txt  span {color: #bb9b51;}
+  .grand .grand_box > div:hover .gb_txt  p {color: #bb9b51;}
 
   /* notice */
   .notice {
@@ -818,7 +819,7 @@ section > div > div > div > p {
 
   .right_img > div:hover {margin-top: 0px;}
   .right_img > div:hover .rm_txt {display: block;}
-  .right_img > div .rm_txt {display: block; padding: 2vw 1vw;}
+  .right_img > div .rm_txt {display: block; padding: 2vw 4vw;}
 
   .right_main {display: none;}
   .right_infor {display: none;}
@@ -836,7 +837,7 @@ section > div > div > div > p {
     border-top-left-radius: 0px; 
     border-top-right-radius: 0px;
   }
-  .rm_txt p {margin-bottom: 8px; font-size: 3vw}
+  .rm_txt p {margin-bottom: 1.5vw; font-size: 3vw}
   .rm_txt span {font-size: 2vw;}
   .rm_txt span br {display: none;}
 
@@ -964,7 +965,7 @@ section > div > div > div > p {
 
   .rm2, .rm3, .rm4 {display: none;}
 
-  .right_img > div .rm_txt {display: block; padding: 4.5vw 2vw;}
+  .right_img > div .rm_txt {display: block; padding: 4.5vw 8vw;}
 
   /* cinema */
   .grand {padding: 40px 0;}
@@ -1047,6 +1048,9 @@ section > div > div > div > p {
   .rm_txt p {margin-bottom: 2vw;}
   .ask > ul li a strong {font-size: 5vw;}
   .ask > ul li a span {margin-bottom: 2vw;}
+
+  .movie_title ul li a {font-size: 3vw;}
+  
 
 }
 @media (max-width: 320px) {
