@@ -95,15 +95,15 @@ $(window).resize(function(){
     }
   })
 
-  // if(winWid<=600){
-  //   $('.slider .ss3').css({"background": "url(../img/banner1-1.png)", "background-position": "center center"})
-  //   $('.slider .ss1').css({"background": "url(../img/banner1-2.png)", "background-position": "center center"})
-  //   $('.slider .ss2').css({"background": "url(../img/banner1-3.png)", "background-position": "center center"})
-  // } else {
-  //   $('.slider .ss1').css({"background": "url(../img/banner1.jpg)", "background-position": "center center","background-size": "cover"})
-  //   $('.slider .ss2').css({"background": "url(../img/friend1.png)", "background-position": "center center","background-size": "cover"})
-  //   $('.slider .ss3').css({"background": "url(../img/banner3.jpg)", "background-position": "center center","background-size": "cover"})
-  // }
+  if(winWid<=600){
+    $('.slider .ss3').css({"background": "url(../img/banner1-1.png)", "background-position": "center center"})
+    $('.slider .ss1').css({"background": "url(../img/banner1-2.png)", "background-position": "center center"})
+    $('.slider .ss2').css({"background": "url(../img/banner1-3.png)", "background-position": "center center"})
+  } else {
+    $('.slider .ss1').css({"background": "url(../img/banner1.jpg)", "background-position": "center center","background-size": "cover"})
+    $('.slider .ss2').css({"background": "url(../img/friend1.png)", "background-position": "center center","background-size": "cover"})
+    $('.slider .ss3').css({"background": "url(../img/banner3.jpg)", "background-position": "center center","background-size": "cover"})
+  }
 
   if(winWid<=600){
     $('.grand .opening').find('img').attr('src','img/grand1.png')
